@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "prepare": "ts-patch install",
-    "postinstall": "prisma generate",
+    "postinstall": "pnpm db:gen",
     "------------------------BUILDS------------------------": "",
     "build": "nest build",
     "start": "nest start",
